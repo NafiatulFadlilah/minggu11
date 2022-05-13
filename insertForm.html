@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tambah Data</title>
+    </head>
+    <body>
+        <form enctype="multipart/form-data" action="insertProcess.php" method="post">
+            <table>
+                <tr>
+                    <td>Nama: </td>
+                    <td><input type="text" name="myname"> </td>
+                </tr>
+                <tr>
+                    <td>Alamat: </td>
+                    <td>
+                        <textarea name="myaddress" rows ="5" cols="20"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Foto: </td>
+                    <td><input type="file" name="myfoto"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" name="send" value="Tambah"> </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
